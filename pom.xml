@@ -84,7 +84,7 @@
                 <version>2.10.0</version> <!-- Проверьте последнюю версию -->
                 <configuration>
                     <!--<resultsDirectory>${project.basedir}/allure-results</resultsDirectory>-->
-                    <resultsDirectory>allure-results</resultsDirectory> <!--Где кранится папка с отчетом-->
+                    <resultsDirectory>allure-results</resultsDirectory> <!--Где хранится папка с отчетом-->
                     <!--mvn clean test -Dallure.results.directory=target/allure-results--> <!--Комманда для принудительного отчета в папку таргет-->
                </configuration>
            </plugin>
