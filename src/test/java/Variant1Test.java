@@ -1,4 +1,8 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -33,6 +37,10 @@ public class Variant1Test {
         }
     }
 
+    @Epic("Самокат")
+    @Description("Проверка вопросов и ответов на сайте")
+    @Feature("Список вопросов")
+    @Step("Открыть вопрос и ответ на него")
     @ParameterizedTest
     @CsvFileSource(resources = "/questions.csv")
     public void allQuestionsHaveAnswerText(String question, String answer) {

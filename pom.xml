@@ -56,6 +56,13 @@
             <artifactId>logback-classic</artifactId>
             <version>1.4.11</version> <!-- Укажи актуальную версию -->
         </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit5</artifactId>
+            <version>2.20.1</version> <!-- Проверьте последнюю версию на https://mvnrepository.com -->
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -65,7 +72,36 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M9</version>
+                <configuration>
+                    <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
+                </configuration>
             </plugin>
-        </plugins>
-    </build>
+
+            <!-- Для формирования отчетов Allure-->
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version> <!-- Проверьте последнюю версию -->
+                <configuration>
+                    <!--<resultsDirectory>${project.basedir}/allure-results</resultsDirectory>-->
+                    <resultsDirectory>allure-results</resultsDirectory> <!--Где кранится папка с отчетом-->
+                    <!--mvn clean test -Dallure.results.directory=target/allure-results--> <!--Комманда для принудительного отчета в папку таргет-->
+               </configuration>
+           </plugin>
+
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <version>3.8.1</version>
+               <configuration>
+                   <source>11</source>
+                   <target>11</target>
+                   <compilerArgs>
+                       <arg>--add-modules</arg>
+                       <arg>java.base</arg>
+                   </compilerArgs>
+               </configuration>
+           </plugin>
+       </plugins>
+   </build>
 </project>

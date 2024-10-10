@@ -1,5 +1,8 @@
 .idea/
 main/
-target/
+target/*
+!site/
+!allure-result/
+.allure/
 
 
