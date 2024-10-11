@@ -5,3 +5,6 @@ generated-test-sources/
 maven-status/
 surefire-reports/
 .allure/
+maven-archiver/
+css/
+images/
