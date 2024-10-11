@@ -14,13 +14,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.PageFactory;
+import pageobjects.MainPage;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
+import pageobjects.MainPage;
 
 public class Variant3Test {
-    WebDriver driver;
+    //WebDriver driver;
+
+    private MainPage mainPage;
+
+    private WebDriver driver;
     @BeforeEach
     public void setup() {
         // Используем WebDriverManager для автоматического управления драйверами
@@ -30,6 +37,7 @@ public class Variant3Test {
         options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        mainPage = PageFactory.initElements(driver, MainPage.class);
     }
 
     @AfterEach

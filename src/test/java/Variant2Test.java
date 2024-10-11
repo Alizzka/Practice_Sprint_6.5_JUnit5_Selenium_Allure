@@ -15,9 +15,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import java.util.concurrent.TimeUnit;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.openqa.selenium.support.PageFactory;
+import pageobjects.MainPage;
 
 public class Variant2Test {
-    WebDriver driver;
+    //WebDriver driver;
+
+    private MainPage mainPage;
+
+    private WebDriver driver;
     @BeforeEach
     public void setup() {
         // Используем WebDriverManager для автоматического управления драйверами
@@ -27,6 +33,7 @@ public class Variant2Test {
         options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        mainPage = PageFactory.initElements(driver, MainPage.class);
     }
 
     @AfterEach
