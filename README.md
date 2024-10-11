@@ -71,6 +71,8 @@ mvn clean test -Dallure.results.directory=target/allure-results
 
 3. Перенести папку из корневой папки в таргет
 
+4. mvn allure:report
+
 mvn allure:serve
 
 Открывается сайт с отчетом
