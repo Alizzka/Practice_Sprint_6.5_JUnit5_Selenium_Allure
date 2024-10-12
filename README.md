@@ -73,9 +73,8 @@ mvn clean test -Dallure.results.directory=target/allure-results
 
 4. mvn allure:report
 
-mvn allure:serve
+5. Отчет открыть через папку site, index.html в браузере
 
-Открывается сайт с отчетом
 
 
 
