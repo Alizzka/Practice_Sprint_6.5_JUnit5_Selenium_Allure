@@ -1,0 +1,99 @@
+{
+  "uid" : "6e5516522735014d",
+  "name" : "allQuestionsHaveAnswerText(String, String) [5] Можно ли продлить заказ или вернуть самокат раньше?, Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.",
+  "fullName" : "Variant1Test.allQuestionsHaveAnswerText",
+  "historyId" : "730a11c002eb033b2e8c0e869f5e8ea7",
+  "time" : {
+    "start" : 1730412137641,
+    "stop" : 1730412140680,
+    "duration" : 3039
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка вопросов и ответов на сайте",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть вопрос и ответ на него",
+      "time" : {
+        "start" : 1730412138246,
+        "stop" : 1730412140453,
+        "duration" : 2207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "question",
+        "value" : "Можно ли продлить заказ или вернуть самокат раньше?"
+      }, {
+        "name" : "answer",
+        "value" : "Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010."
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:Variant1Test]/[test-template:allQuestionsHaveAnswerText(java.lang.String, java.lang.String)]/[test-template-invocation:#5]"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "23704@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e5516522735014d.json",
+  "parameterValues" : [ ]
+}

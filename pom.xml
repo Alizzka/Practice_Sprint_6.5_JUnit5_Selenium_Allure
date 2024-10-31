@@ -13,8 +13,6 @@
         <maven.compiler.target>11</maven.compiler.target>
         <junit.jupiter.version>5.10.0</junit.jupiter.version> <!-- Версия JUnit 5 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- версия Allure -->
         <allure.version>2.17.3</allure.version>
         <aspectj.version>1.9.7</aspectj.version>
     </properties>
@@ -61,17 +59,13 @@
             <version>1.4.11</version> <!-- Укажи актуальную версию -->
         </dependency>
 
-        <!--<dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-junit5</artifactId>
-            <version>2.10.0</version>--> <!-- Проверьте последнюю версию на https://mvnrepository.com -->
-            <!--<scope>test</scope>
-        </dependency>-->
+        <!-- модуль взаимодействия Allure и Junit -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit5</artifactId>
             <version>${allure.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
@@ -114,14 +108,12 @@
                 </dependencies>
             </plugin>
 
-            <!-- Для формирования отчетов Allure-->
+            <!-- подключение плагина allure-maven для вызова функций Allure с помощью Maven -->
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.10.0</version> <!-- Проверьте последнюю версию -->
+                <version>2.10.0</version>
                 <configuration>
-                    <!--<resultsDirectory>allure-results</resultsDirectory>--> <!--Где хранится папка с отчетом-->
-                    <!--mvn clean test -Dallure.results.directory=target/allure-results--> <!--Комманда для принудительного отчета в папку таргет-->
                     <reportVersion>2.15.0</reportVersion>
                </configuration>
            </plugin>
@@ -130,3 +122,110 @@
 </project>
 
 
+<!-- Old pom-->
+<!--<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>org.example</groupId>
+<artifactId>SeleniumJunitTest</artifactId>
+<version>1.0-SNAPSHOT</version>
+
+<properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <junit.jupiter.version>5.10.0</junit.jupiter.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.25.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.4.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.4.11</version>
+    </dependency>
+
+    <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-junit5</artifactId>
+        <version>2.10.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M9</version>
+            <configuration>
+                <argLine>-add-opens java.base/java.lang=ALL-UNNAMED</argLine>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-maven</artifactId>
+            <version>2.10.0</version>
+            <configuration>
+                <resultsDirectory>allure-results</resultsDirectory>
+                <reportVersion>2.10.0</reportVersion>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>11</source>
+                <target>11</target>
+                <compilerArgs>
+                    <arg>-add-modules</arg>
+                    <arg>java.base</arg>
+                </compilerArgs>
+            </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.10.0</version>
+        </plugin>
+    </plugins>
+</build>
+</project>-->
