@@ -1,0 +1,80 @@
+{
+  "uid" : "e33aa5b0852dcca3",
+  "name" : "[7] Можно ли отменить заказ?, Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.",
+  "fullName" : "Variant1Test.allQuestionsHaveAnswerText",
+  "historyId" : "7f988a48fdd6a5e731295b5763da4c01",
+  "time" : {
+    "start" : 1730406889035,
+    "stop" : 1730406891812,
+    "duration" : 2777
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "27712@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86ffbb63c0606df7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730406743870,
+        "stop" : 1730406746451,
+        "duration" : 2581
+      }
+    }, {
+      "uid" : "2e442db0857b3c7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730406344310,
+        "stop" : 1730406346967,
+        "duration" : 2657
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e33aa5b0852dcca3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,72 @@
+{
+  "uid" : "34d2e2cdc6e3b993",
+  "name" : "[4] Можно ли продлить заказ или вернуть самокат раньше?, Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.",
+  "fullName" : "Variant3Test.allQuestionsHaveAnswerText",
+  "historyId" : "580c34fda77240d5e935c98a396f1ea4",
+  "time" : {
+    "start" : 1730406922811,
+    "stop" : 1730406925219,
+    "duration" : 2408
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "27712@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b19f09fed3ed5bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730406714892,
+        "stop" : 1730406717691,
+        "duration" : 2799
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34d2e2cdc6e3b993.json",
+  "parameterValues" : [ ]
+}

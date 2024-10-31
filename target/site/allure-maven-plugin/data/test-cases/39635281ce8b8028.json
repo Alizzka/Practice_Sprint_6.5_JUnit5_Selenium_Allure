@@ -1,0 +1,72 @@
+{
+  "uid" : "39635281ce8b8028",
+  "name" : "[8] Я жизу за МКАДом, привезёте?, Да, обязательно. Всем самокатов! И Москве, и Московской области.",
+  "fullName" : "Variant3Test.allQuestionsHaveAnswerText",
+  "historyId" : "ee16a46ac29511fe3b4cbef222a028ad",
+  "time" : {
+    "start" : 1730406932907,
+    "stop" : 1730406935549,
+    "duration" : 2642
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "27712@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b618fef4f1eab28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730406726044,
+        "stop" : 1730406728367,
+        "duration" : 2323
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39635281ce8b8028.json",
+  "parameterValues" : [ ]
+}

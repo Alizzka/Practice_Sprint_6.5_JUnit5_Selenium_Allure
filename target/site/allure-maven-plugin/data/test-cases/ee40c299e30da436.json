@@ -1,0 +1,62 @@
+{
+  "uid" : "ee40c299e30da436",
+  "name" : "[6] Вы привозите зарядку вместе с самокатом?, Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.",
+  "fullName" : "Variant1Test.allQuestionsHaveAnswerText",
+  "historyId" : "cbcc98453859a7c06fb747867677b15a",
+  "time" : {
+    "start" : 1730406741392,
+    "stop" : 1730406743868,
+    "duration" : 2476
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "13668@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee40c299e30da436.json",
+  "parameterValues" : [ ]
+}

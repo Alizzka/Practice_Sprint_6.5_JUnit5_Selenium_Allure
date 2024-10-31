@@ -1,0 +1,62 @@
+{
+  "uid" : "f60b8def6f5c04a0",
+  "name" : "[4] Можно ли заказать самокат прямо на сегодня?, Только начиная с завтрашнего дня. Но скоро станем расторопнее.",
+  "fullName" : "Variant2Test.allQuestionsHaveAnswerText",
+  "historyId" : "ab02e824b7de57af18db8d91ee19567f",
+  "time" : {
+    "start" : 1730406757663,
+    "stop" : 1730406760517,
+    "duration" : 2854
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "13668@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f60b8def6f5c04a0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,72 @@
+{
+  "uid" : "a2e7c91e72d78963",
+  "name" : "[1] Сколько это стоит? И как оплатить?, Сутки — 400 рублей. Оплата курьеру — наличными или картой.",
+  "fullName" : "Variant2Test.allQuestionsHaveAnswerText",
+  "historyId" : "7d4e87ad8f8195193f1eb074c7f7f86e",
+  "time" : {
+    "start" : 1730406894472,
+    "stop" : 1730406897425,
+    "duration" : 2953
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "27712@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "610bb7746c2cfc31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1730406749101,
+        "stop" : 1730406751650,
+        "duration" : 2549
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2e7c91e72d78963.json",
+  "parameterValues" : [ ]
+}
