@@ -1,0 +1,99 @@
+{
+  "uid" : "fa5a9103b8378e3f",
+  "name" : "allQuestionsHaveAnswerText(String, String) [4] Можно ли заказать самокат прямо на сегодня?, Только начиная с завтрашнего дня. Но скоро станем расторопнее.",
+  "fullName" : "Variant1Test.allQuestionsHaveAnswerText",
+  "historyId" : "9faefe1eb4c61cdadc37e683e96a91a6",
+  "time" : {
+    "start" : 1730409391170,
+    "stop" : 1730409393739,
+    "duration" : 2569
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка вопросов и ответов на сайте",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть вопрос и ответ на него",
+      "time" : {
+        "start" : 1730409391820,
+        "stop" : 1730409393632,
+        "duration" : 1812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "question",
+        "value" : "Можно ли заказать самокат прямо на сегодня?"
+      }, {
+        "name" : "answer",
+        "value" : "Только начиная с завтрашнего дня. Но скоро станем расторопнее."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:Variant1Test]/[test-template:allQuestionsHaveAnswerText(java.lang.String, java.lang.String)]/[test-template-invocation:#4]"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "24964@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa5a9103b8378e3f.json",
+  "parameterValues" : [ ]
+}

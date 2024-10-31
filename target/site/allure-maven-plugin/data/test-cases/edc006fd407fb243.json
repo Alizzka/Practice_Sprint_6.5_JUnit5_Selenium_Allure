@@ -1,0 +1,99 @@
+{
+  "uid" : "edc006fd407fb243",
+  "name" : "allQuestionsHaveAnswerText(String, String) [7] Можно ли отменить заказ?, Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.",
+  "fullName" : "Variant2Test.allQuestionsHaveAnswerText",
+  "historyId" : "cbf475f70caf9c343635cdfecb1eab4e",
+  "time" : {
+    "start" : 1730409419313,
+    "stop" : 1730409421667,
+    "duration" : 2354
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка вопросов и ответов на сайте",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть вопрос и ответ на него",
+      "time" : {
+        "start" : 1730409419933,
+        "stop" : 1730409421477,
+        "duration" : 1544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "question",
+        "value" : "Можно ли отменить заказ?"
+      }, {
+        "name" : "answer",
+        "value" : "Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:Variant2Test]/[test-template:allQuestionsHaveAnswerText(java.lang.String, java.lang.String)]/[test-template-invocation:#7]"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "24964@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant2Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edc006fd407fb243.json",
+  "parameterValues" : [ ]
+}

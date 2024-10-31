@@ -1,0 +1,99 @@
+{
+  "uid" : "8aa016e720a0c44e",
+  "name" : "allQuestionsHaveAnswerText(String, String) [1] Сколько это стоит? И как оплатить?, Сутки — 400 рублей. Оплата курьеру — наличными или картой.",
+  "fullName" : "Variant1Test.allQuestionsHaveAnswerText",
+  "historyId" : "278978051fed16ad20985dc35dd68724",
+  "time" : {
+    "start" : 1730409380754,
+    "stop" : 1730409384478,
+    "duration" : 3724
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка вопросов и ответов на сайте",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть вопрос и ответ на него",
+      "time" : {
+        "start" : 1730409382548,
+        "stop" : 1730409384321,
+        "duration" : 1773
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "question",
+        "value" : "Сколько это стоит? И как оплатить?"
+      }, {
+        "name" : "answer",
+        "value" : "Сутки — 400 рублей. Оплата курьеру — наличными или картой."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:Variant1Test]/[test-template:allQuestionsHaveAnswerText(java.lang.String, java.lang.String)]/[test-template-invocation:#1]"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "24964@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant1Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8aa016e720a0c44e.json",
+  "parameterValues" : [ ]
+}
