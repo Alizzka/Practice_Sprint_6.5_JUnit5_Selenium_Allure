@@ -1,0 +1,64 @@
+{
+  "uid" : "df9683ea8c59cda1",
+  "name" : "[3] Как рассчитывается время аренды?, Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.",
+  "fullName" : "Variant3Test.allQuestionsHaveAnswerText",
+  "historyId" : "e3a35e457e07b23ca91331b7fad5f7dd",
+  "time" : {
+    "start" : 1729435198022,
+    "stop" : 1729435201071,
+    "duration" : 3049
+  },
+  "description" : "Проверка вопросов и ответов на сайте",
+  "descriptionHtml" : "<p>Проверка вопросов и ответов на сайте</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Список вопросов"
+  }, {
+    "name" : "epic",
+    "value" : "Самокат"
+  }, {
+    "name" : "host",
+    "value" : "MSI-Prestige"
+  }, {
+    "name" : "thread",
+    "value" : "31048@MSI-Prestige.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "allQuestionsHaveAnswerText"
+  }, {
+    "name" : "suite",
+    "value" : "Variant3Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df9683ea8c59cda1.json",
+  "parameterValues" : [ ]
+}
