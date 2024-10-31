@@ -58,9 +58,7 @@ public class YandexTest {
 #### Комманды для отчетов о прохождении тестов allure:
 #### *Для принудительного создания отчета после тестирования в папке таргет
 
-mvn clean test -Dallure.results.directory=target/allure-results 
-
-#### Комманды для отчетов о прохождении тестов allure:
+mvn clean test -Dallure.results.directory=target/allure-results
 
 1. mvn clean test
 
